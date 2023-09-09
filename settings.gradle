@@ -13,8 +13,9 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
+//colocar aqui para instalar algun pacote!
 rootProject.name = "TEST-TCC-2"
 include ':app'

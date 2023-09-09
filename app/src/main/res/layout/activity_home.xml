@@ -9,32 +9,42 @@
 
     <Button
         android:id="@+id/coletaButton"
-        android:layout_width="wrap_content"
+        android:layout_width="219dp"
         android:layout_height="wrap_content"
+
+        android:background="@drawable/button_background"
         android:text="Solicitação de Coleta" />
 
     <Button
         android:id="@+id/cadastroAlimentosButton"
-        android:layout_width="wrap_content"
+        android:layout_width="216dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"
         android:text="Cadastro de Alimentos" />
 
     <Button
         android:id="@+id/cadastroRotasButton"
-        android:layout_width="wrap_content"
+        android:layout_width="216dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"
         android:text="Cadastro de Rotas" />
 
     <Button
         android:id="@+id/coletasFinalizadasButton"
-        android:layout_width="wrap_content"
+        android:layout_width="221dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"
         android:text="Coletas Finalizadas" />
 
     <Button
         android:id="@+id/configButton"
-        android:layout_width="wrap_content"
+        android:layout_width="219dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"
         android:text="Configurações" />
 
     <androidx.cardview.widget.CardView

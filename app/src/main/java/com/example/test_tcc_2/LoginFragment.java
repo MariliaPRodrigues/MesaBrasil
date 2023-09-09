@@ -15,6 +15,7 @@ import com.google.android.material.textfield.TextInputLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 public class LoginFragment extends Fragment {
@@ -59,9 +60,18 @@ public class LoginFragment extends Fragment {
 
             if (username.isEmpty() || password.isEmpty()) {
                 errorTextView.setText("Campos obrigatórios.");
-            } else if (username.equals("teste@gmail.com") && password.equals("12345678")) {
+            } else if (username.equals("teste@gmail.com") && password.equals("1")) {
                 // Credenciais iniciar HomeActivity
                 Intent intent = new Intent(getActivity(), HomeActivity.class);
+                startActivity(intent);
+            } else if (username.equals("teste@doador.com") && password.equals("1")) {
+                // Credenciais iniciar UsuarioDoador
+
+                Intent intent = new Intent(getActivity(), UsuarioDoadorActivity.class);
+                startActivity(intent);
+            } else if (username.equals("motorista@motorista") && password.equals("1")) {
+                // Credenciais iniciar Motorista
+                Intent intent = new Intent(getActivity(), MotoristaActivity.class);
                 startActivity(intent);
             } else {
                 errorTextView.setText("Email ou Senha Incorreto! Por favor, tente novamente.");
