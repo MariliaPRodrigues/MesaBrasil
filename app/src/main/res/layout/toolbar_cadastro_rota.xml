@@ -28,7 +28,8 @@
         android:id="@+id/notificacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
+        android:layout_marginStart="80dp"
+        android:maxHeight="50dp"
         android:layout_toEndOf="@+id/titulo"
         android:src="@drawable/ic_toolbar_notificacao" />
 

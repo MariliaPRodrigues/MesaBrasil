@@ -43,7 +43,7 @@
         android:id="@+id/buttonSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="400dp"
         android:text="Salvar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
         android:id="@+id/buttonCancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="400dp"
         android:text="Cancelar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.936"
@@ -107,6 +107,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
+
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.633"
@@ -117,8 +119,10 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ListView
-        android:layout_width="175dp"
-        android:layout_height="334dp"
+        android:layout_width="155dp"
+        android:layout_height="285dp"
+
+
         android:id="@+id/listViewBairro"
         android:listSelector="#729CDC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -129,8 +133,8 @@
         app:layout_constraintVertical_bias="0.329" />
 
     <ListView
-        android:layout_width="175dp"
-        android:layout_height="334dp"
+        android:layout_width="155dp"
+        android:layout_height="285dp"
         android:id="@+id/listViewNovaRota"
         android:listSelector="#729CDC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,7 +145,7 @@
         app:layout_constraintVertical_bias="0.329" />
 
     <ListView
-        android:layout_width="194dp"
+        android:layout_width="100dp"
         android:layout_height="117dp"
         android:id="@+id/listViewRotas"
         android:listSelector="#729CDC"
