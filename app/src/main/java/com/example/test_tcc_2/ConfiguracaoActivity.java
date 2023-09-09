@@ -52,12 +52,12 @@ public class ConfiguracaoActivity extends AppCompatActivity {
                     editor.putBoolean("night", false);
                 } else{
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                editor = sharedPreferences.edit();
-                editor.putBoolean("night", true);
-            }
-            editor.apply();
+                    editor = sharedPreferences.edit();
+                    editor.putBoolean("night", true);
+                }
+                editor.apply();
 
-        }
+            }
         });
 
         fontepequenaButton = findViewById(R.id.fontepequenaButton);
