@@ -5,7 +5,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logomesa"
         android:supportsRtl="true"
         android:theme="@style/Theme.TESTTCC2">
 
@@ -22,10 +22,37 @@
 
 
         <activity
+            android:name=".UsuarioDoadorActivity"
+            android:label="Usuario"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+        <activity
+            android:name=".MotoristaActivity"
+            android:label="MotoristaActivity" >
+        </activity>
+
+        <activity
             android:name=".HomeActivity"
             android:label="HomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
+
+        <activity
+            android:name=".Conferencia"
+            android:label="Conferencia"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".SolicitacaoColetaActivity"
+            android:label="SolicitacaoColetaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
 
         <activity
             android:name=".NovoUsuarioActivity"
@@ -35,6 +62,11 @@
         <activity android:name=".RecuperarSenhaActivity" />
         <activity android:name=".ConfiguracaoActivity" />
         <activity android:name=".CadastroRotasActivity" />
+
+
+
     </application>
+
+
 
 </manifest>

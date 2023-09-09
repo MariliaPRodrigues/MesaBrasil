@@ -15,7 +15,7 @@
     </style>
 
     <style name="SCREEN">
-        <item name="android:background">#FFFFFFFF</item>
+        <item name="android:background">#fffdd0</item>
     </style>
 
 

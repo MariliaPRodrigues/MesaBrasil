@@ -12,4 +12,9 @@
     <item name="telefoneEditText" type="id" />
     <item name="emailEditText" type="id" />
     <item name="passwordToggleIcon" type="id" />
+    <item name="icon" type="id" />
+    <item name="custom_toast_layout" type="id" />
+    <!--<item name="pieChart" type="id" /> -->
+   <!--  <item name="TableLayout" type="id" /> -->
+    <!-- <item name="confirmarColetaButton" type="id" />  -->
 </resources>

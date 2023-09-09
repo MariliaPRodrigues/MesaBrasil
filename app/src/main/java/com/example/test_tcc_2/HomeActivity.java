@@ -48,5 +48,15 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        Button solicitacaocoleta = findViewById(R.id.coletaButton);
+        solicitacaocoleta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+               Intent intent = new Intent(HomeActivity.this, SolicitacaoColetaActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/SCREEN"
+
     android:orientation="vertical"
+    android:background="@drawable/background_color"
+
     android:padding="16dp">
 
     <ImageView
@@ -18,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:hint="Username">
+        android:hint="Digite Seu Usuario:">
 
         <EditText
             android:id="@+id/usernameEditText"
@@ -35,9 +37,8 @@
         android:id="@+id/passwordTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/TEXT"
         android:layout_marginTop="16dp"
-        android:hint="Password">
+        android:hint="Digite Sua Senha:">
         <!-- ... ajuste text passoword e icone mostrar passoword ... -->
         <RelativeLayout
             android:layout_width="match_parent"
@@ -90,10 +91,12 @@
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+
         android:text="Login" />
 
     <View
@@ -104,9 +107,11 @@
 
     <Button
         android:id="@+id/newUserButton"
-        android:layout_width="wrap_content"
+        android:layout_width="216dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_background"
         android:text="Novo Usuário" />
 
 </LinearLayout>
