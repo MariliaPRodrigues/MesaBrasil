@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/solicitacaoColetaMenuToolbar"
+        android:title="Solicitações de Coleta"/>
+    <item
+        android:id="@+id/cadastroAlimentoMenuToolbar"
+        android:title="Cadastro de Alimentos"/>
+    <item
+        android:id="@+id/cadastroRotasMenuToolbar"
+        android:title="Cadastro de Rotas"/>
+    <item
+        android:id="@+id/coletasFinalizadasMenuToolbar"
+        android:title="Coletas Finalizadas"/>
+    <item
+        android:id="@+id/configMenuToolbar"
+        android:title="Configurações"/>
+
+</menu>

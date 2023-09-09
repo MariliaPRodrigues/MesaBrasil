@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/SCREEN"
@@ -21,10 +22,11 @@
 
         <EditText
             android:id="@+id/usernameEditText"
-            android:layout_width="match_parent"
             style="@style/TEXT"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="text"
+            tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- ... (código anterior) ... -->
@@ -43,11 +45,12 @@
 
             <EditText
                 android:id="@+id/passwordEditText"
+                style="@style/TEXT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/TEXT"
                 android:layout_toStartOf="@id/passwordToggleIcon"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/passwordToggleIcon"
@@ -81,6 +84,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:clickable="true"
+        android:minHeight="48dp"
         android:text="Esqueci minha..."
         android:textColor="@android:color/holo_blue_dark" />
 
