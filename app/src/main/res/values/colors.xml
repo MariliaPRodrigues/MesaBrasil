@@ -15,4 +15,14 @@
     <color name="dark_gray">#2e2e2e</color>
     <color name="purple_200">#FFBB86FC</color>
 
+    <!-- cor da Toolbar-->
+    <color name="verde_floresta">#228b22</color>
+
+    <!-- cor de fundo da tela-->
+    <color name="creme">#fffdd0</color>
+
+
+    
+    
+
 </resources>

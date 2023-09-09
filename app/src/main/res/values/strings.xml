@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">Mesa Brasil</string>
 
+    <string name="cadastro_alimento">Cadastro de Alimentos</string>
+    <string name="produto">Produto</string>
+    <string name="unid">Unidade</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    
+    <string name="cadastro_rotas">Cadastro de Rotas</string>
+    <string name="bairros">Bairros</string>
+    <string name="nova_rota">Nova Rota</string>
+
+
+
     <string-array name="tipo_cadastro_options">
         <item>Mesa Brasil</item>
         <item>Instituição</item>
