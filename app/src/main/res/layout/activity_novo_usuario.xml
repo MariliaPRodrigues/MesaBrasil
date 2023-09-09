@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     style="@style/SCREEN"
     android:orientation="vertical"
+    android:background="@drawable/background_color"
+
     android:padding="16dp">
 
     <EditText
@@ -79,9 +81,11 @@
 
     <Button
         android:id="@+id/cadastrarButton"
-        android:layout_width="wrap_content"
+        android:layout_width="216dp"
+        android:background="@drawable/button_background"
         android:layout_height="wrap_content"
         android:text="Cadastrar"
+
         android:layout_gravity="center"
         android:layout_marginTop="16dp" />
 
