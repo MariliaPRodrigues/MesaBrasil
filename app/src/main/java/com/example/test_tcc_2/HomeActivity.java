@@ -27,7 +27,7 @@ public class HomeActivity extends AppCompatActivity {
         numeroInstituicoesTextView.setText(String.valueOf(numeroInstituicoesAtendidas));
 
 
-        // Configurar os listeners dos botões aqui OK1 - testeteste@Q
+        // Configurar os listeners dos botões aqui OK1
 
         Button configButtonTela = findViewById(R.id.configButton);
         configButtonTela.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +45,25 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(HomeActivity.this, cadastro_alimento.class);
+                startActivity(intent);
+            }
+        });
+
+        cadastroRotasButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(HomeActivity.this, CadastroRotasActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button solicitacaocoleta = findViewById(R.id.coletaButton);
+        solicitacaocoleta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+               Intent intent = new Intent(HomeActivity.this, SolicitacaoColetaActivity.class);
                 startActivity(intent);
             }
         });
