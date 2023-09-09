@@ -53,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:text="Pequena" />
+        android:text="Pequena"
+        android:backgroundTint="#33b249"/>
 
     <Button
         android:id="@+id/fontemediaButton"
@@ -61,7 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:text="Média" />
+        android:text="Média"
+        android:backgroundTint="#33b249"/>
 
     <Button
         android:id="@+id/fontegrandeButton"
@@ -69,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:text="Grande" />
+        android:text="Grande"
+        android:backgroundTint="#33b249"/>
 
 </LinearLayout>

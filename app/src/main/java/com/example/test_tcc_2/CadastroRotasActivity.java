@@ -115,7 +115,10 @@ public class CadastroRotasActivity extends AppCompatActivity implements PopupMen
         });
 
         buttonCancelar.setOnClickListener(v -> {
-            adapterNovaRota.clear();
+            if (adapterNovaRota != null){
+                adapterNovaRota.clear();
+            }
+
         });
 
         buttonLixeira.setOnClickListener(v -> {
